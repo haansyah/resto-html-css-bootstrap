@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto - Modern Restaurant</title>
+
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header
+      class="container d-flex flex-row justify-content-between align-items-center"
+    >
+      <ul class="nav w-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >Category</a
+          >
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+      </ul>
+      <a href="/" class="brand-logo d-flex align-items-center"
+        ><img src="./assets/icons/logo.svg" alt="" /><span>Resto</span></a
+      >
+      <div class="d-flex align-items-stretch">
+        <div class="form-search d-flex flex-row align-items-center">
+          <img src="./assets/icons/ic-search.svg" alt="" />
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search your favorite food"
+          />
+        </div>
+        <a class="btn btn-primary btn-login" href="#">Log In</a>
+      </div>
+    </header>
+
+    <section
+      class="hero container d-flex flex-row flex-nowrap position-relative"
+    >
+      <div class="col-12">
+        <div class="example-resto d-flex flex-column position-absolute">
+          <div class="d-flex flex-row align-items-center mb-1 rate">
+            <div>
+              <img class="ic-star" src="./assets/icons/ic-star.svg" alt="" />
+            </div>
+            <div>
+              <img class="ic-star" src="./assets/icons/ic-star.svg" alt="" />
+            </div>
+            <div>
+              <img class="ic-star" src="./assets/icons/ic-star.svg" alt="" />
+            </div>
+            <div>
+              <img class="ic-star" src="./assets/icons/ic-star.svg" alt="" />
+            </div>
+            <div>
+              <img class="ic-star" src="./assets/icons/ic-star.svg" alt="" />
+            </div>
+            <div class="rating">5.0</div>
+            <div class="review">(5.2K+)</div>
+          </div>
+          <h3 class="title mb-1">Padang Restaurant</h3>
+          <h3 class="price mb-1">IDR 49.999 - IDR 560.000</h3>
+          <div class="d-flex flex-row mb-4 align-items-center">
+            <img
+              src="./assets/icons/ic-location.svg"
+              class="me-2 img-location"
+              alt="location"
+            />
+            <div class="location">Padang, Indonesia</div>
+          </div>
+          <a href="#" class="btn-common"
+            >Make Reservation
+            <img src="./assets/icons/ic-arrow-right.svg" alt=""
+          /></a>
+          <div class="d-flex flex-row align-items-center info">
+            <img src="./assets/icons/ic-info.svg" alt="" />
+            <div class="text">No extra cost</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12"></div>
+    </section>
+
+    <section class="benefit container">
+      <p class="subtitle text-center sub-benefit">Special Benefit For You</p>
+      <h4 class="title text-center title-benefit">Why Should Choose Us?</h4>
+      <div class="d-flex flex-row">
+        <div class="col card-item mx-2">
+          <div class="item d-flex flex-column justify-content-center">
+            <div class="icon">
+              <img src="./assets/icons/benefit-discount.svg" alt="" />
+            </div>
+            <div class="title">Extra Discounts</div>
+            <div class="subtitle">
+              Get your special discount by using our reservation
+            </div>
+          </div>
+          <a href="#" class="btn btn-block view-details"
+            >View Details <img src="./assets/icons/ic-arrow-right.svg" alt=""
+          /></a>
+        </div>
+        <div class="col card-item mx-2">
+          <div class="item d-flex flex-column justify-content-center">
+            <div class="icon">
+              <img src="./assets/icons/benefit-come.svg" alt="" />
+            </div>
+            <div class="title">Come and Eat</div>
+            <div class="subtitle">
+              Get your own table quickly & without waiting in line
+            </div>
+          </div>
+          <a href="#" class="btn btn-block view-details"
+            >View Details <img src="./assets/icons/ic-arrow-right.svg" alt=""
+          /></a>
+        </div>
+        <div class="col card-item mx-2">
+          <div class="item d-flex flex-column justify-content-center">
+            <div class="icon">
+              <img src="./assets/icons/benefit-extrafee.svg" alt="" />
+            </div>
+            <div class="title">Extra Discounts</div>
+            <div class="subtitle">
+              Get your special discount by using our reservation
+            </div>
+          </div>
+          <a href="#" class="btn btn-block view-details"
+            >View Details <img src="./assets/icons/ic-arrow-right.svg" alt=""
+          /></a>
+        </div>
+        <div class="col card-item mx-2">
+          <div class="item d-flex flex-column justify-content-center">
+            <div class="icon">
+              <img src="./assets/icons/benefit-guaranteed.svg" alt="" />
+            </div>
+            <div class="title">Come and Eat</div>
+            <div class="subtitle">
+              Get your own table quickly & without waiting in line
+            </div>
+          </div>
+          <a href="#" class="btn btn-block view-details"
+            >View Details <img src="./assets/icons/ic-arrow-right.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular container d-flex flex-row align-items-center gap-3">
+      <div class="col-4">
+        <p class="subtitle">Top 3 Featured Restaurant</p>
+        <h4 class="title">Most Popular Restaurants</h4>
+        <p class="desc">
+          The best restaurant in our opinion is how<br />
+          much customers like it in terms of place,<br />
+          price, comfort and of course the taste of<br />
+          the food itself.
+        </p>
+        <a href="#" class="btn-common"
+          >View All Restaurant
+          <img src="./assets/icons/ic-arrow-right.svg" alt=""
+        /></a>
+      </div>
+      <div class="col-4 popular-1">
+        <div
+          class="sub-item d-flex flex-row align-items-center justify-content-between"
+        >
+          <div class="col">
+            <div class="d-flex flex-row align-content-center">
+              <div>
+                <img src="./assets/icons/ic-star.svg" class="ic-star" alt="" />
+              </div>
+              <div class="rating">5.0</div>
+              <div class="review">(5.2K+)</div>
+            </div>
+            <h5 class="item-title">Bind Balorant</h5>
+            <div class="d-flex flex-row align-items-center location">
+              <img src="./assets/icons/ic-location.svg" alt="" />
+              <span>Jakarta, Indonesia</span>
+            </div>
+          </div>
+          <a class="next" href="#">
+            <img src="./assets/icons/ic-arrow-right-2.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="col popular-2"></div>
+      <div class="col popular-3"></div>
+    </section>
+
+    <section class="container resto-near">
+      <div
+        class="d-flex flex-row justify-content-between align-items-center mb-5"
+      >
+        <div>
+          <p class="subtitle">Restaurant Based By City</p>
+          <h4 class="title">Restaurant Near You</h4>
+        </div>
+        <div class="d-flex flex-row list-location">
+          <img src="./assets/icons/ic-location.svg" alt="" />
+          <div class="">Jakarta, Indonesia</div>
+          <img src="./assets/icons/dropdown.svg" alt="" />
+        </div>
+      </div>
+      <div class="d-flex flex-row mb-5 gap-3">
+        <div class="col popular-1 near-1">
+          <div
+            class="sub-item d-flex flex-row align-items-center justify-content-between"
+          >
+            <div class="col">
+              <div class="d-flex flex-row align-content-center">
+                <div>
+                  <img
+                    src="./assets/icons/ic-star.svg"
+                    class="ic-star"
+                    alt=""
+                  />
+                </div>
+                <div class="rating">5.0</div>
+                <div class="review">(6.6K+)</div>
+              </div>
+              <h5 class="item-title">Batavia Restaurant</h5>
+              <div class="d-flex flex-row align-items-center location">
+                <span>IDR 29.000 - IDR 259.999</span>
+              </div>
+            </div>
+            <a class="next" href="#">
+              <img src="./assets/icons/ic-arrow-right-2.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col popular-1 near-2">
+          <div
+            class="sub-item d-flex flex-row align-items-center justify-content-between"
+          >
+            <div class="col">
+              <div class="d-flex flex-row align-content-center">
+                <div>
+                  <img
+                    src="./assets/icons/ic-star.svg"
+                    class="ic-star"
+                    alt=""
+                  />
+                </div>
+                <div class="rating">5.0</div>
+                <div class="review">(3.6K+)</div>
+              </div>
+              <h5 class="item-title">Split Ascent Restaurant</h5>
+              <div class="d-flex flex-row align-items-center location">
+                <span>IDR 49.999 - IDR 560.000</span>
+              </div>
+            </div>
+            <a class="next" href="#">
+              <img src="./assets/icons/ic-arrow-right-2.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col popular-1 near-3">
+          <div
+            class="sub-item d-flex flex-row align-items-center justify-content-between"
+          >
+            <div class="col">
+              <div class="d-flex flex-row align-content-center">
+                <div>
+                  <img
+                    src="./assets/icons/ic-star.svg"
+                    class="ic-star"
+                    alt=""
+                  />
+                </div>
+                <div class="rating">5.0</div>
+                <div class="review">(11K+)</div>
+              </div>
+              <h5 class="item-title">Daza Fracture Restaurant</h5>
+              <div class="d-flex flex-row align-items-center location">
+                <span>IDR 29.999 - IDR 560.000</span>
+              </div>
+            </div>
+            <a class="next" href="#">
+              <img src="./assets/icons/ic-arrow-right-2.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="#" class="btn-common"
+          >View All Restaurant
+          <img src="./assets/icons/ic-arrow-right.svg" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <section class="container expert">
+      <div class="d-flex flex-row expert-flex">
+        <div class="col expert-left">
+          <div class="experience">
+            <div class="icon mb-2">
+              <img src="./assets/icons/ic-shield.svg" alt="" />
+            </div>
+            <div class="title text-center">12 Years</div>
+            <div class="subtitle text-center">Experience</div>
+          </div>
+          <div class="office d-flex flex-row align-items-center">
+            <div class="office-image">
+              <img src="./assets/images/office.png" alt="" />
+            </div>
+            <div class="info d-flex flex-column">
+              <div class="subtitle">Chef at restaurant:</div>
+              <div class="title mb-4">Pearl Dolphin</div>
+              <a href="#"
+                >View Details
+                <img src="./assets/icons/ic-arrow-right-orange.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col expert-right">
+          <p class="subtitle">Top 4 Expert Chefs</p>
+          <h4 class="title">Expert Chefs in Fuddy</h4>
+          <div class="list-expert">
+            <div
+              class="item-expert d-flex flex-row justify-content-between align-items-center"
+            >
+              <div>
+                <div class="subtitle">Pizza</div>
+                <div class="title">Phoenix Satcheup</div>
+                <div
+                  class="d-flex flex-row align-content-center gap-1 location"
+                >
+                  <img src="./assets/icons/ic-location-black.svg" alt="" /><span
+                    >Jakarta, Indonesia</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex flex-row gap-2">
+                <a href="#"
+                  >Profile Details
+                  <img src="./assets/icons/ic-arrow-right-orange.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div
+              class="item-expert d-flex flex-row justify-content-between align-items-center"
+            >
+              <div>
+                <div class="subtitle">vegan</div>
+                <div class="title">Chamber Botfrag</div>
+                <div
+                  class="d-flex flex-row align-content-center gap-1 location"
+                >
+                  <img src="./assets/icons/ic-location-black.svg" alt="" /><span
+                    >Bandung, Indonesia</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex flex-row gap-2">
+                <a href="#"
+                  >Profile Details
+                  <img src="./assets/icons/ic-arrow-right-orange.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div
+              class="item-expert d-flex flex-row justify-content-between align-items-center"
+            >
+              <div>
+                <div class="subtitle">roast chicken</div>
+                <div class="title">Asep Vandal</div>
+                <div
+                  class="d-flex flex-row align-content-center gap-1 location"
+                >
+                  <img src="./assets/icons/ic-location-black.svg" alt="" /><span
+                    >Sunda, Indonesia</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex flex-row gap-2">
+                <a href="#"
+                  >Profile Details
+                  <img src="./assets/icons/ic-arrow-right-orange.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div
+              class="item-expert d-flex flex-row justify-content-between align-items-center"
+            >
+              <div>
+                <div class="subtitle">beef steak</div>
+                <div class="title">I Made Invoker</div>
+                <div
+                  class="d-flex flex-row align-content-center gap-1 location"
+                >
+                  <img src="./assets/icons/ic-location-black.svg" alt="" /><span
+                    >Bali, Indonesia</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex flex-row gap-2">
+                <a href="#"
+                  >Profile Details
+                  <img src="./assets/icons/ic-arrow-right-orange.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn-common"
+            >View All Chef <img src="./assets/icons/ic-arrow-right.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <script src="./css/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
